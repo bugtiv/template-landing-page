@@ -1,0 +1,89 @@
+h1 {
+    font-size: 1.5rem !important; /* 24px */
+    line-height: 2rem !important; /* 32px */
+    font-weight: bold !important;
+}
+
+h2 {
+    font-size: 1.25rem !important; /* 20px */
+    line-height: 1.75rem !important; /* 28px */
+    font-weight: bold !important;
+}
+
+h3 {
+    font-size: 1.125rem !important; /* 18px */
+    line-height: 1.75rem !important; /* 28px */
+    font-weight: bold !important;
+}
+
+h4 {
+    font-size: 1rem !important; /* 16px */
+    line-height: 1.5rem !important; /* 24px */
+    font-weight: bold !important;
+}
+
+h5,
+h6 {
+    font-size: 1rem !important; /* 16px */
+    line-height: 1.5rem !important; /* 24px */
+    font-weight: bold !important;
+}
+
+.content {
+    font-size: 1rem !important; /* 16px */
+    line-height: 1.5rem !important; /* 24px */
+}
+
+body {
+    font-family: "Prompt", sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.img-background {
+    /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 90%); */
+    filter: brightness(30%);
+}
+
+@media (min-width: 768px) {
+    .img-background {
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 90%);
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 1.875rem !important; /* 30px */
+        line-height: 2.5rem !important; /* 40px */
+    }
+    h2 {
+        font-size: 1.5rem !important; /* 24px */
+        line-height: 2rem !important; /* 32px */
+    }
+
+    h3 {
+        font-size: 1.25rem !important; /* 20px */
+        line-height: 1.75rem !important; /* 28px */
+    }
+
+    h4 {
+        font-size: 1.125rem !important; /* 18px */
+        line-height: 1.75rem !important; /* 28px */
+    }
+
+    .img-background {
+        clip-path: polygon(0 0, 100% 0, 100% 60%, 0 70%);
+    }
+}
+
+@media (min-width: 1280px) {
+    .img-background {
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 0 60%);
+    }
+}
